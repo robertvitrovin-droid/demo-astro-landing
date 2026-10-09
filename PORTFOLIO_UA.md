@@ -16,3 +16,5 @@
 **Результат.** Lighthouse 100/100/100/100 на мобільному і десктопі (LCP 0.7 с на мобільному), виміряно локально. Додаються звіти та скриншоти на ширині 1440 і 390 px. Шаблон швидко адаптується під інший бізнес: тексти, кольори, секції, домен і хостинг (Netlify, Cloudflare Pages, VPS).
 
 **Ціна від:** 3 500 грн · термін від 2 днів
+
+**Посилання.** Код: https://github.com/robertvitrovin-droid/demo-astro-landing · Живе демо: https://robertvitrovin-droid.github.io/demo-astro-landing/
