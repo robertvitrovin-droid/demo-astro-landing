@@ -9,6 +9,8 @@
 - Доступність: skip-link, семантичні landmarks, `aria-label`, видимий фокус, контраст WCAG AA, зони натискання ≥ 44px, `prefers-reduced-motion`, `<details>` для FAQ без JS.
 - SEO: title/description, canonical, Open Graph, schema.org (`BicycleStore`), robots.txt.
 
+**Живе демо:** https://robertvitrovin-droid.github.io/demo-astro-landing/
+
 ## Lighthouse 12 (локальний `astro preview`)
 | Профіль | Performance | Accessibility | Best Practices | SEO | LCP |
 |---|---|---|---|---|---|
