@@ -17,6 +17,7 @@ const faq = [
   ['Працюєте з електровелосипедами?', 'Механіку — так: гальма, трансмісія, колеса. Електроніку не ремонтуємо.'],
   ['Чи даєте гарантію?', 'На роботи 30 днів. Якщо щось налаштоване неправильно, виправимо безкоштовно.'],
 ];
+const base = import.meta.env.BASE_URL;
 const title = 'Велосервіс «Спиця» — ремонт і ТО велосипедів (демо)';
 const desc = 'Демо-лендинг вигаданого велосервісу: безкоштовна діагностика, ТО від 450 грн, ремонт за 1 день.';
 ---
@@ -25,7 +26,7 @@ const desc = 'Демо-лендинг вигаданого велосервіс�
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title><meta name="description" content={desc} />
-  <link rel="canonical" href="https://example.com/" /><link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href="https://robertvitrovin-droid.github.io/demo-astro-landing/" /><link rel="icon" href={base + 'favicon.svg'} type="image/svg+xml" />
   <meta property="og:title" content={title} /><meta property="og:description" content={desc} /><meta property="og:type" content="website" />
   <meta name="theme-color" content="#0f1626" />
   <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'BicycleStore', name: 'Велосервіс «Спиця» (демо)', description: desc, priceRange: '₴₴' })} />
@@ -35,7 +36,7 @@ const desc = 'Демо-лендинг вигаданого велосервіс�
   <div class="demo-bar" role="note">DEMO · вигаданий бізнес для портфоліо, контакти не справжні</div>
   <header class="top">
     <div class="wrap nav">
-      <a href="/" class="logo" aria-label="Спиця, на головну">
+      <a href={base} class="logo" aria-label="Спиця, на головну">
         <svg width="34" height="34" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#e8a33d"/><circle cx="10" cy="20" r="6" fill="none" stroke="#0f1626" stroke-width="2.5"/><circle cx="22" cy="20" r="6" fill="none" stroke="#0f1626" stroke-width="2.5"/></svg>
         <span>Спиця</span></a>
       <nav aria-label="Основна навігація"><ul>
